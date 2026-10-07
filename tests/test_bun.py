@@ -1,5 +1,5 @@
 import pytest
-from bun import Bun
+from praktikum.bun import Bun
 
 
 class TestBun:
@@ -33,3 +33,4 @@ class TestBun:
         bun1 = Bun("bun1", 100.0)
         bun2 = Bun("bun2", 200.0)
         assert bun1.get_name() != bun2.get_name() and bun1.get_price() != bun2.get_price()
+        
